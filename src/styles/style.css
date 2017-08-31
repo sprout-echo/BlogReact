@@ -1,0 +1,259 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: 微软雅黑;
+}
+body{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+/*头部*/
+.head{
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px;
+  background: #fefefe;
+  border-bottom:1px solid #dadada;
+  color: #27515f;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0px 2px 8px #ddd;
+}
+.head a{
+  display: block;
+  position: absolute;
+  width: 250px;
+  text-align: center;
+  text-decoration: none;
+  background: #554136;
+  color:#fff;
+  padding: 8px;
+  right:-50px;
+  z-index: 6;
+  top:50px;
+  transform: rotate(40deg);
+}
+/*左侧*/
+.left{
+  position: fixed;
+  width: 23%;
+  border:1px solid #ccc;
+  box-shadow: 2px 2px 10px #ccc;
+  margin:15px 15px 15px 10px;
+  height: 90%;
+  border-radius: 3px;
+  overflow: hidden;
+}
+ul p{
+  color: #297a6b;
+}
+li{
+  list-style: none;
+  float: left;
+  width:auto;
+  background: #ebb8a7;
+  border-radius: 3px;
+  margin:20px 5px;
+  padding: 3px 8px;
+  font-size: 13px;
+  box-shadow: 2px 2px 5px #c47864;
+  cursor: pointer;
+  color: #333;
+}
+.flag{
+  width: 100%;
+  padding: 10px;
+  background: #eee;
+}
+.music{
+  position: absolute;
+  width: 96%;
+  height:10%;
+  bottom: 0px;
+  margin:5px 2%;
+  border-radius: 3px;
+  background: #eee;
+}
+
+/*右侧*/
+.right{
+  position: absolute;
+  width: 73%;
+  height:90%;
+  left:25%;
+  margin:15px 0px;
+  padding: 0px 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.blog{
+  position: relative;
+  width: 30%;
+  height:250px;
+  border:1px solid #ccc;
+  box-shadow: 2px 2px 10px #666;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden;
+  float:left;
+  margin:5px 10px;
+}
+.detail{
+  width: 100%;
+  height:50px;
+  background: #fff;
+  opacity: 0.75;
+  position: absolute;
+  bottom: -30px;
+  font-size: 13px;
+  padding: 10px 25px;
+  color: #000;
+  line-height: 25px;
+}
+.blog:hover .detail{
+  bottom:0px;
+  transition: all 0.5s ease;
+}
+.blog:hover{
+  box-shadow: 4px 4px 12px #333;
+}
+.detail b{
+  color: #418f99;
+  margin-right:20px;
+}
+.collect{
+  font-size: 30px;
+  margin:10px 30px;
+  color: #c33;
+}
+/*底部*/
+.foot{
+  position: absolute;
+  bottom: 5px;
+  left:46%;
+  font-size: 12px;
+  color: #519183;
+}
+
+/*博客内容*/
+.content{
+  width: 95%;
+  height:auto;
+  padding: 20px;
+  border-radius: 6px;
+  border:1px solid #ccc;
+  line-height: 30px;
+  box-shadow: 2px 2px 10px #ccc;
+}
+.blog-title{
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 8px 0px;
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 10px;
+}
+.blog-title img{
+  width: 15px;
+}
+.blog-time{
+  font-size: 13px;
+  color: #999;
+}
+.blog-flag{
+  font-size: 13px;
+  color: #1bb7ea;
+  box-shadow: 0px 0px 5px #2af5f7;
+  border-radius: 3px;
+  padding: 2px 8px;
+  margin-left: 20px;
+}
+.blog-content{
+  color: #666;
+  margin: 20px 0px;
+}
+.blog-comment{
+  width: 100%;
+  border-top: 1px dashed #ccc;
+}
+.blog-back{
+  font-size: 13px;
+  width: 80px;
+  background: #2af5f7;
+  color: #fff;
+  margin-left: -20px;
+  text-align: center;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+}
+.comment-title{
+  padding: 3px 10px;
+  border-left:5px solid #f09450;
+  background: #efefef;
+  font-size: 13px;
+  margin-top: 10px;
+  border-radius: 3px;
+  color:#c47831;
+}
+.comment-title img{
+  width: 20px;
+  margin-top: 5px;
+}
+.comment-area input[type="text"]{
+  width: 80%;
+  padding: 8px;
+  border:0px;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.comment-area input[type="button"]{
+  padding: 8px 12px;
+  outline: none;
+  border:0px;
+  border-radius: 3px;
+  background: #fb7e92;
+  margin:-5px 20px;
+  color: #fff;
+  box-shadow: 0px 0px 5px #eb6479;
+  font-size: 13px;
+  cursor: pointer;
+}
+.comment-people{
+  color: #8b4d36;
+}
+.comment-people b{
+  display: inline-block;
+  width: 18px;
+  height:18px;
+  padding: 3px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 50%;
+  color: #fff;
+  background: #839785;
+}
+
+/*动画*/
+.blog-animate-enter{
+  opacity: 0.1;
+  left:200px;
+  transform:rotate(25deg);
+}
+.blog-animate-enter.blog-animate-enter-active{
+  opacity: 1;
+  left:0px;
+  transform:rotate(0);
+  transition:all 800ms ease-in;
+}
+.blog-animate-leave{
+  opacity: 1;
+  left:0px;
+}
+.blog-animate-leave.blog-animate-leave-active{
+  opacity: 0.01;
+  left:200px;
+  transition:all 800ms ease-in;
+}
