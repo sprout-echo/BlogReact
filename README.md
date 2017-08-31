@@ -2,7 +2,7 @@
 
 技术栈：webpack+react+es6
 
-项目运行
+## 项目运行
 
 git clone https://github.com/sprout-echo/BlogReact.git
 
