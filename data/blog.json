@@ -4,7 +4,7 @@
       {
         "id":"1",
         "title":"大小姐驾到，通通闪开",
-        "content":"第一篇博客，写的内容非常少，因为只是要测验一下嘛，hahahahaha，再凑点字",
+        "content":"第一篇博客，<a href='#' className='link'>百度</a>写的内容非常少，因为只是要测验一下嘛，hahahahaha，再凑点字<a href='#' className='link'>百度</a>",
         "flag":"test",
         "cover":"src/img/1.jpg",
         "collect":"1",
@@ -13,7 +13,7 @@
       {
         "id":"2",
         "title":"关于react的学习",
-        "content":"React是Facebook开源的一个用于构建用户界面的Javascript库，已经 应用于Facebook及旗下Instagram。和庞大的AngularJS不同，React专注于MVC架构中的V，即视图。 这使得React很容易和开发者已有的开发栈进行融合。React顺应了Web开发组件化的趋势。预编译模块的方案.不过，React定义组件的方式和AngularJS截然不同。如果说HTML是一个轮子，AngularJS 的指令/Directive则是给这个轮子镶了个金边，而React，重新造了个轮子： JSX。",
+        "content":"React是Facebook开源的一个用于构建用户界面的Javascript库，已经 应用于Facebook及旗下Instagram。<br/>和庞大的AngularJS不同，React专注于MVC架构中的V，即视图。 这使得React很容易和开发者已有的开发栈进行融合。React顺应了Web开发组件化的趋势。预编译模块的方案.不过，React定义组件的方式和AngularJS截然不同。如果说HTML是一个轮子，AngularJS 的指令/Directive则是给这个轮子镶了个金边，而React，重新造了个轮子： JSX。<xmp class='code-div'>var HelloWorld = React.createClass({render: function(){return <p>Hello World</p>;}});React.render(<HelloWorld></HelloWorld>, document.body);</xmp><img src='src/img/cover.jpg'/>",
         "flag":"react",
         "cover":"src/img/cover.jpg",
         "collect":"0",
@@ -39,7 +39,7 @@
       },
       {
         "id":"5",
-        "title":"深入学习react",
+        "title":"深入学习react+redux",
         "content":"react是组件化的思想，虚拟DOM快速加载，react-router实现路由，redux管理状态",
         "flag":"react",
         "cover":"src/img/cover5.jpg",
@@ -65,6 +65,26 @@
         "comment":"想你了，老兄",
         "discuss":"sprout",
         "reply":""
+      }
+   ],
+   "media":[
+      {
+          "id":"1",
+          "title":"像我这样的人--毛不易",
+          "head":"src/img/tou1.jpg",
+          "source":"http://m2.music.126.net/rUcfqqZbq7TIfJeAHfTrkw==/3376600210116829.mp3"
+      },
+      {
+          "id":"2",
+          "title":"童话镇--陈一发儿",
+          "head":"src/img/tit.png",
+          "source":"http://m2.music.126.net/jwwZVlWJ78HEarft42uKUQ==/7906588115920636.mp3"
+      },
+      {
+          "id":"3",
+          "title":"演员--薛之谦",
+          "head":"src/img/tit.png",
+          "source":"http://m2.music.126.net/rnq_W32zFX_utQbBhE0xkg==/8934631487358481.mp3"
       }
     ]
   }
